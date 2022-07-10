@@ -11,12 +11,12 @@ Predicting the probability of Attrition of new customers based on previous custo
 - Dataset contains 14 features related to telecom data:
 
       `Sex`, `Aged`, `Married`, `Total Dependents`, `Service Span`, `Mobile Service`, `4G Service`, `Cyber Protection`, `Hardware Support`, `Technical Assistance`, `Film Subscription`, `Settlement Process`, `Quarterly Payment`, `Grand Payment`
-- `Quarterly Payment`, `Grand Payment` are *continuous* data columns [In some experiments `Service Span` is also considered as continuous] and remaining are *Categorical* columns.
+- `Quarterly Payment` and `Grand Payment` are *continuous* data columns and the remaining are *Categorical* columns.
 
 # Training
 
 - I used `CatBoost`, `XGBoost`, `LightGBM` techniques for training.
-- After training based on obtaied feature importances, Various features were removed and experimented with different combination of features.
+- After training based on obtained feature importances, Various features were removed and experimented with different combination of features.
 - Finally the best models are ensembled and achieved 79.06% accuracy on test data samples.
 
 
