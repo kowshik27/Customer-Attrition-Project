@@ -17,7 +17,7 @@ Predicting the probability of Attrition of new customers based on previous custo
 
 - I used `CatBoost`, `XGBoost`, `LightGBM`, `Histogram Gradient Boosting` techniques for training.
 - After training based on obtaied feature importances, Various features were removed and experimented with different combination of features.
-- Finally the best models are ensembled and achieved 80.79% accuracy on test data samples.
+- Finally the best models are ensembled and achieved 79.06% accuracy on test data samples.
 
 
 # Conclusion 
